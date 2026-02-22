@@ -13,7 +13,7 @@ public class ArrayProcessor {
     public void randomNumArray10() {
         Random randomNum = new Random();
         for (int i = 0; i < numbers.length; i++) {
-            this.numbers[i] = randomNum.nextInt(100);
+            this.numbers[i] = randomNum.nextInt(100);             // Creates a random number from 0 to 99
         }
     }
 
@@ -25,3 +25,4 @@ public class ArrayProcessor {
         return this.numbers[this.indexInput] / this.dividerInput;
     }
 }
+
