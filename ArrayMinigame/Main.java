@@ -13,6 +13,7 @@ public class Main {
         ArrayProcessor array1 = new ArrayProcessor(dividerInput, indexInput);
         array1.randomNumArray10();
 
+        // Error handling
         try {
             System.out.println("Number: " + array1.getRanNumFromArray() + " Divided by " + dividerInput + " = " + array1.processArray());
         } catch (ArrayIndexOutOfBoundsException e) {
