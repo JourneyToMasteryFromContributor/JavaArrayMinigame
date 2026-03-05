@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Initialise scanner
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Please enter an index including between 1 and 10: ");
@@ -10,6 +11,7 @@ public class Main {
         System.out.print("Please enter a divider: ");
         double dividerInput = scan.nextDouble();
 
+        // Generate random number using the method within the object.
         ArrayProcessor array1 = new ArrayProcessor(dividerInput, indexInput);
         array1.randomNumArray10();
 
